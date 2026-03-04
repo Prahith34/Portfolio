@@ -6,7 +6,7 @@ interface PageLayoutProps {
 
 export default function PageLayout({ children }: PageLayoutProps) {
     return (
-        <div className="relative grid min-h-screen grid-cols-[1fr_2.5rem_auto_2.5rem_1fr] grid-rows-[1fr_1px_auto_1px_1fr] bg-white dark:bg-gray-950">
+        <div className="relative grid min-h-screen grid-cols-[1fr_1rem_auto_0.75rem_1fr] md:grid-cols-[1fr_1.5rem_auto_1.5rem_1fr] lg:grid-cols-[1fr_2.5rem_auto_2.5rem_1fr] grid-rows-[1fr_1px_auto_1px_1fr] bg-white dark:bg-gray-950">
             
             {/* Main Content Area - Centered */}
             <div className="col-start-3 row-start-3 flex flex-col bg-gray-50 dark:bg-gray-900/50">
