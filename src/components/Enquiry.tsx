@@ -18,7 +18,7 @@ const Enquiry = () => {
         // call your API hero to submit the form
         // here's a mock API cal for you
 
-        const response = await new Promise((resolve,reject)=>{
+        const response = await new Promise((resolve)=>{
             setTimeout(()=>{
                 resolve("API call successfully");
             },1000);
