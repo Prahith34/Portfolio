@@ -47,7 +47,7 @@ const Projects = () => {
     <section>
         <PageLayout>
             <div className="min-h-screen flex items-start justify-start">
-                <Container className="min-h-screen p-4 md:pt-20">
+                <Container className="min-h-screen px-4 pt-20">
                     <Navbar/>
                     <div className="py-4">
                         <Heading>Projects</Heading>
