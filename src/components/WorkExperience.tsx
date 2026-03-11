@@ -1,27 +1,18 @@
 import novalogo from '@/assets/images/novalogo.svg'
 import keyblockslogo from '@/assets/images/keyblockslogo.webp'
-import klinkaaralogo from '@/assets/images/klinkaaralogo.png'
 
 const WorkExperience = () => {
     const company = [
         {
             id:'1',
-            comapanyName:'Freelance',
-            logo: klinkaaralogo,
-            role:'Frontend Developer',
-            Duration:'Oct 2025 - Present',
-            desc:'Developed end-to-end WordPress websites for Bold Overseas (Visa Consulting) and Sri Klin Kaara (Interior Design Studio).',
-        },
-        {
-            id:'2',
             comapanyName:'Nova Studios HQ',
             logo: novalogo,
             role:'Frontend Developer',
-            Duration:'Apr 2024 - Oct 2025',
+            Duration:'Apr 2024 - Present',
             desc:'Built responsive web applications primarily using React.js, along with WordPress, WooCommerce and Webflow, based on client and project requirements. Optimized and Improved performance metrics by 35%',
         },
         {
-            id:'3',
+            id:'2',
             comapanyName:'Keyblocks Strategy Consulting Pvt. ltd',
             logo: keyblockslogo,
             role:'Web Developer',
